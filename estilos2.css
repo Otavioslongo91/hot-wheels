@@ -43,3 +43,102 @@ tbody Tr:nth-child(odd){
 tbody tr:nth-child(even){
     background-color:aliceblue;
 }
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: transparent;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 32px;
+    z-index: 1000;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+nav.scrolled {
+    background: #006241;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+nav .logo {
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+
+    position: relative;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+    padding: 8px 12px;
+    display: block;
+}
+
+nav ul li a:hover {
+    color: #a3d2ca;
+}
+
+nav ul li .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;  /* fica logo abaixo do item pai */
+    left: 0;
+    background: #c228a8c9;
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    min-width: 180px;
+}
+
+nav ul li .submenu li a {
+    padding: 10px 20px;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+nav ul li .submenu li a:hover {
+    background: rgba(255,255,255,0.1);
+    color: #a3d2ca;
+}
+
+/* Mostrar submenu ao passar o mouse */
+nav ul li.dropdown:hover .submenu {
+    display: block;
+}
+
+
+
+
+
+/* Header */
+header {
+    background: url('https://www.10wallpaper.com/wallpaper/1920x1080/1512/line_obliquely_purple_bright-2015_Design_HD_Wallpaper_1920x1080.jpg');
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+    padding: 0 16px;
+    padding-top: 60px;
+    text-align: center;
+}
