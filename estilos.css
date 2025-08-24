@@ -6,8 +6,8 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #f4f4f4;
-    color: #333;
+    background: #d4d4d4e1;
+    color: #686868;
     line-height: 1.6;
 }
 
@@ -67,7 +67,7 @@ nav ul li .submenu {
     position: absolute;
     top: 100%;  /* fica logo abaixo do item pai */
     left: 0;
-    background: #006241;
+    background: #c228a8c9;
     list-style: none;
     padding: 10px 0;
     margin: 0;
@@ -98,7 +98,7 @@ nav ul li.dropdown:hover .submenu {
 
 /* Header */
 header {
-    background: url('https://wallpapers.com/images/hd/fundo-de-hot-wheels-1920-x-1080-nrrcx2xu6csycly7.jpg');
+    background: url('https://www.10wallpaper.com/wallpaper/1920x1080/1512/line_obliquely_purple_bright-2015_Design_HD_Wallpaper_1920x1080.jpg');
     height: 35vh;
     display: flex;
     justify-content: center;
@@ -123,16 +123,16 @@ p {
     margin-top: 60px;
     padding: auto 90px;
     text-align: center;
-    color: #006241;
+    color: #111111cc;
 }
 
 .mini{
 
     display: inline block;
     margin: 10px ;
-    background-color: aquamarine;
+    background-color: rgba(174, 0, 255, 0.26);
     width: 430px;
-    height: 380px;
+    height: 400px;
     scroll-behavior: smooth;
     color: white;
     text-align: center;
@@ -140,13 +140,15 @@ p {
 }
 
 .explicações{
-    font-size: 18px;
+    font-size: 20px;
+    @import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 }
 
 h3{
-    font-size: 25px;
+    font-size: 35px;
     text-align: center;
     padding: 10px;
+    color:rgb(22, 189, 189)
 
 }
 
@@ -158,4 +160,118 @@ h3{
 .container{
     display: flex;
 
+}
+
+h4{
+    font-size: 35px;
+    text-align: center;
+    color: rgb(22, 189, 189);
+    padding: 10px;
+
+
+}
+
+.servico{
+    
+  background-color: rgba(174, 0, 255, 0.26);  /* cor de fundo clara */
+  border: 2px solid #9151517a;  /* borda azul */
+  border-radius: 12px;        /* cantos arredondados */
+  padding: 10px;              /* espaço interno */
+  margin: 20px auto;          /* espaço fora */
+  width: 60%;                 /* largura do quadro */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* sombra */
+  font-family: Arial, sans-serif;
+}
+
+.servico p {
+  font-size: 25px;
+  color: #333;
+}
+
+.servico a {
+  color: #0077b6;
+  font-weight: bold;
+  text-decoration: none;
+}
+.servico a:hover {
+  text-decoration: underline;
+}
+
+.videos{
+    background-color: rgba(174, 0, 255, 0.26);  /* cor de fundo clara */
+  border: 2px solid #9151517a;  /* borda azul */
+  border-radius: 12px;        /* cantos arredondados */
+  padding: 20px;              /* espaço interno */
+  margin: 20px auto;          /* espaço fora */
+  width: 60%;                 /* largura do quadro */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* sombra */
+  font-family: Arial, sans-serif;
+
+}
+
+h2{
+
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    color: #0077b6;
+
+
+}
+
+.videos ul li{
+
+    font-size: 30px;
+    margin-top: 60px;
+    padding: auto 90px;
+    text-align: center;
+    color: #006241;
+
+}
+
+.Minha {
+
+  background-color: #f0f8ff;  /* cor de fundo clara */
+  border: 2px solid #0077b6;  /* borda azul */
+  border-radius: 12px;        /* cantos arredondados */
+  padding: 20px;              /* espaço interno */
+  margin: 20px auto;          /* espaço fora */
+  width: 60%;                 /* largura do quadro */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* sombra */
+  font-family: Arial, sans-serif;
+
+
+}
+
+.tabela {
+    
+    font-size: 30px;
+    margin-top: 60px;
+    padding: auto 90px;
+    text-align: center;
+    color: #006241;
+
+}
+
+
+
+footer {
+
+    background: url('https://www.10wallpaper.com/wallpaper/1920x1080/1512/line_obliquely_purple_bright-2015_Design_HD_Wallpaper_1920x1080.jpg');
+    height:20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+    padding: 0 16px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+footer a{
+
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
 }
