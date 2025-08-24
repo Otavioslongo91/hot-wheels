@@ -17,7 +17,7 @@ H2{
     font-size: 25px;
     margin-top: 30px;
     margin-bottom: 15px;
-    font-family: ;
+    font-family: monospace;
     
 }
 
@@ -38,15 +38,14 @@ thead{
 tbody{
     
     font-size: 16px;
+    font-family: Lilita One;
+    
+
 }
 Th,td{
     padding: 15px;
     border: 5px solid #ddd;
     text-align: center;
-    @font-face {
-        font-family:qualver ;
-        src: url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Racing+Sans+One&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
-    }
     
 }
 
@@ -87,6 +86,8 @@ nav {
     padding: 10px 32px;
     z-index: 1000;
     transition: background 0.3s ease, box-shadow 0.3s ease;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 nav.scrolled {
@@ -156,7 +157,12 @@ nav ul li.dropdown:hover .submenu {
 }
 
 
+h1{
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
 
+}
 
 /* Header */
 header {
