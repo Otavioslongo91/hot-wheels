@@ -1,0 +1,45 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: rgb(204, 202, 202);
+    margin: 20px;
+
+}
+
+H2{
+    color: cadetblue;
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+table{
+    border-collapse: collapse;
+    width: 80%;
+    margin: 15px auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+thead{
+    background-color: rgb(0, 129, 80);
+    color: whitesmoke;
+    font-family:sans-serif;
+    font-size: 18px;
+}
+tbody{
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 16px;
+}
+Th,td{
+    padding: 15px;
+    border: 5px solid #ddd;
+    text-align: left;
+}
+
+tbody Tr:nth-child(odd){
+    background-color: rgb(109, 141, 141);
+    background-color: white;
+}
+tbody tr:nth-child(even){
+    background-color:aliceblue;
+}
