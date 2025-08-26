@@ -87,16 +87,13 @@ nav ul li .submenu li a:hover {
     color: #6ae4cf;
 }
 
-/* Mostrar submenu ao passar o mouse */
+
 nav ul li.dropdown:hover .submenu {
     display: block;
 }
 
 
 
-
-
-/* Header */
 header {
     background: url('https://www.10wallpaper.com/wallpaper/1920x1080/1512/line_obliquely_purple_bright-2015_Design_HD_Wallpaper_1920x1080.jpg');
     height: 35vh;
@@ -119,6 +116,15 @@ header h1 {
     
 }
 
+.nagação{
+    padding: 30px 20px;
+    background-color: #006241;
+    position: fixed;
+    height: 30px;
+    display: flex;
+    
+}
+
 p {
     font-size: 30px;
     margin-top: 60px;
@@ -138,9 +144,21 @@ p {
     color: #111111cc;
 }
 
+.linha{
+
+    margin: 0 -5px;
+}
+
+.coluna{
+  float: left;
+  width: 33,33%;
+  padding: 0 10px;
+
+}
+
 .mini{
 
-    display: inline block;
+    display: inline-block;
     margin: 5px ;
     background-color: rgba(174, 0, 255, 0.26);
     width: 430px;
@@ -185,6 +203,7 @@ h3{
     display: flex; /* mantém os cards em linha */
     gap: 10px; /* espaçamento entre os cards */
     flex-wrap: wrap; /* permite que quebrem a linha se necessário */
+    align-items: center;
 }
     
 
