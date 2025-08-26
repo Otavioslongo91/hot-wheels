@@ -180,7 +180,7 @@ h3{
 }
 
 .container {
-    max-width: 2000px; /* ou o valor máximo que você deseja */
+    max-width: 2000px; /* ou o valor máximo  */
     margin: 0 auto; /* centraliza o container horizontalmente */
     display: flex; /* mantém os cards em linha */
     gap: 10px; /* espaçamento entre os cards */
@@ -201,11 +201,11 @@ h4{
 
 .servico{
     
-  background-color: rgba(174, 0, 255, 0.26);  /* cor de fundo clara */
-  border-radius: 12px;        /* cantos arredondados */
-  padding: 10px;              /* espaço interno */
-  margin: 20px auto;          /* espaço fora */
-  width: 60%;                 /* largura do quadro */
+  background-color: rgba(174, 0, 255, 0.26);  
+  border-radius: 12px;        
+  padding: 10px;             
+  margin: 20px auto;         
+  width: 60%;                 
   box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* sombra */
   font-family: Arial, sans-serif;
 }
@@ -290,7 +290,7 @@ footer p {
 }
 
 footer a {
-  color: #00a2ff;   /* amarelo para destacar o link */
+  color: #00a2ff;   
   font-weight: bold;
   text-decoration: none;
 }
