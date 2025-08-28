@@ -117,11 +117,15 @@ header h1 {
 }
 
 .nagação{
-    padding: 30px 20px;
-    background-color: #006241;
     position: fixed;
-    height: 30px;
-    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px; 
+    background: url('https://www.10wallpaper.com/wallpaper/1920x1080/1512/line_obliquely_purple_bright-2015_Design_HD_Wallpaper_1920x1080.jpg');
+    z-index: 0; 
+    
+    
     
 }
 
