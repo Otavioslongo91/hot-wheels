@@ -65,7 +65,7 @@ nav ul li a:hover {
 nav ul li .submenu {
     display: none;
     position: absolute;
-    top: 100%;  /* fica logo abaixo do item pai */
+    top: 100%;  
     left: 0;
     background: #c228a8ec;
     list-style: none;
@@ -121,7 +121,7 @@ header h1 {
     top: 0;
     left: 0;
     width: 100%;
-    height: 60px; 
+    height: 70px; 
     background: url('https://www.10wallpaper.com/wallpaper/1920x1080/1512/line_obliquely_purple_bright-2015_Design_HD_Wallpaper_1920x1080.jpg');
     z-index: 0; 
     
@@ -150,13 +150,17 @@ p {
 
 .linha{
 
-    margin: 0 -5px;
+  content: "";
+  display: table;
+  clear: both;
+
 }
 
 .coluna{
+  
   float: left;
-  width: 33,33%;
-  padding: 0 10px;
+  width: 33.33%;
+  align-items: center;
 
 }
 
@@ -202,12 +206,13 @@ h3{
 }
 
 .container {
-    max-width: 2000px; /* ou o valor máximo  */
-    margin: 0 auto; /* centraliza o container horizontalmente */
-    display: flex; /* mantém os cards em linha */
-    gap: 10px; /* espaçamento entre os cards */
-    flex-wrap: wrap; /* permite que quebrem a linha se necessário */
+    max-width: 3000px; 
+    margin: 0 auto; 
+    display: flex; 
+    gap: 70px; 
+    flex-wrap: wrap; 
     align-items: center;
+    justify-content: center;
 }
     
 
@@ -229,7 +234,7 @@ h4{
   padding: 10px;             
   margin: 20px auto;         
   width: 60%;                 
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* sombra */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
   font-family: Arial, sans-serif;
 }
 
@@ -248,12 +253,12 @@ h4{
 }
 
 .videos{
-  background-color: rgba(174, 0, 255, 0.26);  /* cor de fundo clara */
-  border-radius: 12px;        /* cantos arredondados */
-  padding: 20px;              /* espaço interno */
-  margin: 20px auto;          /* espaço fora */
-  width: 60%;                 /* largura do quadro */
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* sombra */
+  background-color: rgba(174, 0, 255, 0.26); 
+  border-radius: 12px;       
+  padding: 20px;             
+  margin: 20px auto;          
+  width: 60%;                 
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
   font-family: Arial, sans-serif;
 
 }
@@ -308,7 +313,7 @@ footer {
 }
 
 footer p {
-  margin: 5px 0;   /* remove espaçamento exagerado */
+  margin: 5px 0;  
   font-size: 30px;
 }
 
@@ -319,5 +324,13 @@ footer a {
 }
 
 footer a:hover {
-  text-decoration: underline; /* sublinha ao passar o mouse */
+  text-decoration: underline; 
+}
+
+.rodape{
+ 
+    font-size: 30px;
+    padding: auto 50px;
+    text-align: center;
+    color: #ffffff;
 }

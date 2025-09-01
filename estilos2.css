@@ -151,7 +151,7 @@ nav ul li .submenu li a:hover {
     color: #a3d2ca;
 }
 
-/* Mostrar submenu ao passar o mouse */
+
 nav ul li.dropdown:hover .submenu {
     display: block;
 }
@@ -164,7 +164,7 @@ h1{
 
 }
 
-/* Header */
+
 header {
     background: url('https://www.10wallpaper.com/wallpaper/1920x1080/1512/line_obliquely_purple_bright-2015_Design_HD_Wallpaper_1920x1080.jpg');
     height: 35vh;
