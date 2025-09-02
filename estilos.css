@@ -160,7 +160,6 @@ p {
   
   float: left;
   width: 33.33%;
-  align-items: center;
 
 }
 
@@ -179,7 +178,7 @@ p {
 
 .explicações{
     font-size: 20px;
-    @import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+    
 }
 
 h3{
